@@ -10,11 +10,11 @@ This project uses [Feathers](http://feathersjs.com). An open source web framewor
 
 Getting up and running is as easy as 1, 2, 3.
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed **(version 10)**.
 2. Install your dependencies
     
     ```
-    cd WebUI; npm install
+    cd WebUI; npm install; npm audit fix
     ```
 
 3. Start your app
